@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FoE_Sklad</string>
+    <string name="pridaj_tovar">Pridaj tovar</string>
+    <string name="odomkni_expediciu">Odomkni expediciu</string>
+    <string name="pocet_moznych_odomknuti_cechovej_expedicie">Počet možných odomknutí cechovej expedície:</string>
+    <string name="ia">IA</string>
+    <string name="ema">EMA</string>
+    <string name="hma">HMA</string>
+    <string name="lma">LMA</string>
+    <string name="ca">CA</string>
+    <string name="ina">InA</string>
+    <string name="pe">PE</string>
+    <string name="me">ME</string>
+    <string name="pme">PME</string>
+    <string name="ce">CE</string>
+    <string name="te">TE</string>
+    <string name="fe">FE</string>
+    <string name="af">AF</string>
+    <string name="of">OF</string>
+    <string name="vf">VF</string>
+    <string name="sam">SAM</string>
+    <string name="pocet">pocet</string>
+    <string name="tovar1">tovar1</string>
+    <string name="tovar2">tovar2</string>
+    <string name="tovar3">tovar3</string>
+    <string name="tovar4">tovar4</string>
+    <string name="tovar5">tovar5</string>
+    <string name="ok">OK</string>
+    <string name="poziadavky">Požiadavky</string>
+    <string name="pozri_sklad">pozri sklad</string>
+    <string name="textview">TextView</string>
+</resources>

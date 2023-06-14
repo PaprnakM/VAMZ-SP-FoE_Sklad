@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.foe_sklad.mainFragmentVetva.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_odomkniExpediciuFragment"
+            app:destination="@id/odomkniExpediciuFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_pridajTovarFragment"
+            app:destination="@id/pridajTovarFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_pozriSkladFragment"
+            app:destination="@id/pozriSkladFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/odomkniExpediciuFragment"
+        android:name="com.example.foe_sklad.mainFragmentVetva.OdomkniExpediciuFragment"
+        android:label="OdomkniExpediciuFragment"
+        tools:layout="@layout/fragment_odomkni_expediciu">
+        <action
+            android:id="@+id/action_odomkniExpediciuFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/mainFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pridajTovarFragment"
+        android:name="com.example.foe_sklad.pridajTovarVetva.PridajTovarFragment"
+        android:label="PridajTovarFragment"
+        tools:layout="@layout/fragment_pridaj_tovar">
+        <action
+            android:id="@+id/action_pridajTovarFragment_to_pridajTovarDobaFragment"
+            app:destination="@id/pridajTovarDobaFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pridajTovarDobaFragment"
+        android:name="com.example.foe_sklad.pridajTovarVetva.PridajTovarDobaFragment"
+        android:label="PridajTovarDobaFragment"
+        tools:layout="@layout/fragment_pridaj_tovar_doba">
+        <action
+            android:id="@+id/action_pridajTovarDobaFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/mainFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_pridajTovarDobaFragment_to_pridajTovarTovarFragment"
+            app:destination="@id/pridajTovarTovarFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pridajTovarTovarFragment"
+        android:name="com.example.foe_sklad.pridajTovarVetva.PridajTovarTovarFragment"
+        android:label="PridajTovarTovarFragment"
+        tools:layout="@layout/fragment_pridaj_tovar_tovar">
+        <action
+            android:id="@+id/action_pridajTovarTovarFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/mainFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/pozriSkladFragment"
+        android:name="com.example.foe_sklad.mainFragmentVetva.PozriSkladFragment"
+        android:label="PozriSkladFragment"
+        tools:layout="@layout/fragment_pozri_sklad"/>
+
+
+</navigation>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/poziadavkyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/poziadavky"
+                android:layout_gravity="center_horizontal"
+                android:textSize="34sp"/>
+
+            <EditText
+                android:id="@+id/NumInputIA"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ia"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/NumInputEMA"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ema"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/NumInputHMA"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hma"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/NumInputLMA"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/lma"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputCA"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ca"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputIna"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ina"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputPE"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/pe"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputME"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/me"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputPME"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/pme"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputCE"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ce"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputTE"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/te"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputFE"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/fe"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputAF"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/af"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputOF"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/of"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/NumInputVF"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/vf"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:layout_gravity="center_horizontal"
+                android:importantForAutofill="no"/>
+
+            <Button
+                android:id="@+id/OdomkniCEokButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ok"
+                android:layout_marginTop="20dp"
+                android:textSize="48sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>

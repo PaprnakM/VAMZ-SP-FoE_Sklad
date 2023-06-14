@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".pridajTovarVetva.PridajTovarDobaFragment">
+
+        <EditText
+            android:id="@+id/NumInputDoba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pocet"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:importantForAutofill="no" />
+
+            <Button
+                android:id="@+id/tovar1button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tovar1"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/tovar2button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tovar2"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/tovar3button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tovar3"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/tovar4button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tovar4"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/tovar5button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tovar5"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/okDoba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/ok"
+                android:layout_margin="100dp"/>
+
+    </LinearLayout>
+    </ScrollView>
+</layout>
